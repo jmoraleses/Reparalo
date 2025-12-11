@@ -60,6 +60,36 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
+## 📱 Galería de Pantallas
+
+<details open>
+<summary><b>👀 Vista Previa de la Aplicación</b></summary>
+<br/>
+
+| **Landing Page** | **Autenticación (Login/Registro)** |
+|:---:|:---:|
+| ![Landing Page](docs/images/hero-home.png) | ![Auth](docs/images/auth-page.png) |
+| *Página principal con héroe y servicios* | *Acceso y registro de usuarios* |
+
+| **Mis Reparaciones (Cliente)** | **Detalle de Solicitud** |
+|:---:|:---:|
+| ![Mis Reparaciones](docs/images/client-dashboard.png) | ![Detalle Solicitud](docs/images/request-detail.png) |
+| *Panel del cliente con listado de reparaciones* | *Vista detallada con estado y ofertas* |
+
+| **Nueva Solicitud** | **Centro de Mensajes** |
+|:---:|:---:|
+| ![Nueva Solicitud](docs/images/new-request.png) | ![Mensajes](docs/images/messages.png) |
+| *Formulario para solicitar nueva reparación* | *Chat entre cliente y taller* |
+
+| **Panel de Taller** | **Mercado de Solicitudes** |
+|:---:|:---:|
+| ![Panel Taller](docs/images/workshop-dashboard.png) | ![Mercado](docs/images/marketplace.png) |
+| *Gestión de trabajos y ganancias del taller* | *Listado de reparaciones disponibles para ofertar* |
+
+> **Nota para el desarrollador**: Guarda las capturas de pantalla en la carpeta `docs/images/` con los nombres de archivo indicados arriba para que aparezcan aquí.
+</details>
+
+
 ## How can I deploy this project?
 
 Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
