@@ -66,28 +66,34 @@ This project is built with:
 <summary><b>👀 Vista Previa de la Aplicación</b></summary>
 <br/>
 
-| **Landing Page** | **Autenticación (Login/Registro)** |
+| **Landing Page** | **Login** |
 |:---:|:---:|
-| ![Landing Page](docs/images/hero-home.png) | ![Auth](docs/images/auth-page.png) |
-| *Página principal con héroe y servicios* | *Acceso y registro de usuarios* |
+| ![Landing Page](docs/images/hero-home.png) | ![Login](docs/images/auth-page.png) |
+| *Página principal con héroe y servicios* | *Acceso de usuarios* |
 
-| **Mis Reparaciones (Cliente)** | **Detalle de Solicitud** |
+| **Registro** | **Mis Reparaciones (Cliente)** |
 |:---:|:---:|
-| ![Mis Reparaciones](docs/images/client-dashboard.png) | ![Detalle Solicitud](docs/images/request-detail.png) |
-| *Panel del cliente con listado de reparaciones* | *Vista detallada con estado y ofertas* |
+| ![Registro](docs/images/register-page.png) | ![Mis Reparaciones](docs/images/client-dashboard.png) |
+| *Creación de nueva cuenta* | *Panel del cliente con listado de reparaciones* |
 
-| **Nueva Solicitud** | **Centro de Mensajes** |
+| **Nueva Solicitud** | **Detalle de Solicitud** |
 |:---:|:---:|
-| ![Nueva Solicitud](docs/images/new-request.png) | ![Mensajes](docs/images/messages.png) |
-| *Formulario para solicitar nueva reparación* | *Chat entre cliente y taller* |
+| ![Nueva Solicitud](docs/images/new-request.png) | ![Detalle Solicitud](docs/images/request-detail.png) |
+| *Formulario para solicitar nueva reparación* | *Vista detallada con estado y ofertas* |
 
-| **Panel de Taller** | **Mercado de Solicitudes** |
+| **Centro de Mensajes** | **Mercado de Solicitudes** |
 |:---:|:---:|
-| ![Panel Taller](docs/images/workshop-dashboard.png) | ![Mercado](docs/images/marketplace.png) |
-| *Gestión de trabajos y ganancias del taller* | *Listado de reparaciones disponibles para ofertar* |
+| ![Mensajes](docs/images/messages.png) | ![Mercado](docs/images/marketplace.png) |
+| *Chat entre cliente y taller* | *Listado de reparaciones disponibles* |
+
+| **Panel de Taller** | **(Próximamente)** |
+|:---:|:---:|
+| ![Panel Taller](docs/images/workshop-dashboard.png) | 🚧 |
+| *Gestión de trabajos y ganancias del taller* | *Más funcionalidades...* |
 
 > **Nota para el desarrollador**: Guarda las capturas de pantalla en la carpeta `docs/images/` con los nombres de archivo indicados arriba para que aparezcan aquí.
 </details>
+
 
 
 ## How can I deploy this project?
