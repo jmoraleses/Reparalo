@@ -425,7 +425,8 @@ export default function MiTaller() {
                 return (
                   <Card
                     key={rep.id}
-                    className={`p-4 bg-card hover:shadow-md transition-shadow ${needsAction ? 'border-warning/50' : ''}`}
+                    className={`p-4 bg-card hover:shadow-md transition-shadow cursor-pointer ${needsAction ? 'border-warning/50' : ''}`}
+                    onClick={() => navigate(`/solicitud/${rep.id}`)}
                   >
                     <div className="flex items-center gap-4">
                       <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary shrink-0">
@@ -462,6 +463,7 @@ export default function MiTaller() {
                           size="sm"
                           onClick={(e) => {
                             e.preventDefault();
+                            e.stopPropagation();
                             handleContactCustomer(rep.user_id, rep.id);
                           }}
                           disabled={contactingCustomer === rep.id}
@@ -469,10 +471,8 @@ export default function MiTaller() {
                           <MessageSquare className="h-4 w-4 mr-1" />
                           {contactingCustomer === rep.id ? "..." : "Contactar"}
                         </Button>
-                        <Button variant="ghost" size="icon" asChild>
-                          <Link to={`/solicitud/${rep.id}`}>
-                            <ChevronRight className="h-5 w-5" />
-                          </Link>
+                        <Button variant="ghost" size="icon">
+                          <ChevronRight className="h-5 w-5" />
                         </Button>
                       </div>
                     </div>
@@ -498,7 +498,11 @@ export default function MiTaller() {
           <TabsContent value="completadas" className="space-y-4">
             {completadas.length > 0 ? (
               completadas.map((rep) => (
-                <Card key={rep.id} className="p-4 bg-card/50">
+                <Card
+                  key={rep.id}
+                  className="p-4 bg-card/50 cursor-pointer hover:bg-card transition-colors"
+                  onClick={() => navigate(`/solicitud/${rep.id}`)}
+                >
                   <div className="flex items-center gap-4">
                     <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-success/10 text-success shrink-0">
                       <CheckCircle2 className="h-5 w-5" />
@@ -519,10 +523,8 @@ export default function MiTaller() {
                         {new Date(rep.created_at).toLocaleDateString("es-ES")}
                       </div>
                     </div>
-                    <Button variant="ghost" size="icon" asChild>
-                      <Link to={`/solicitud/${rep.id}`}>
-                        <ChevronRight className="h-5 w-5" />
-                      </Link>
+                    <Button variant="ghost" size="icon">
+                      <ChevronRight className="h-5 w-5" />
                     </Button>
                   </div>
                 </Card>
