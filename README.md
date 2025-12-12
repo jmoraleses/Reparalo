@@ -2,7 +2,7 @@
 
 Plataforma de gestión de reparaciones de dispositivos móviles.
 
-> Este proyecto ha sido desarrollado utilizando **Lovable** y **Antigravity**.
+> Este proyecto ha sido desarrollado utilizando **Lovable, superbase** y **Antigravity**.
 
 
 ## What technologies are used for this project?
